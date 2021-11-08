@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/vansfont4"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/gristransparente">
+
+        <Button
+            android:id="@+id/botonLicenciasVencidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LICENCIAS VENCIDAS"
+            android:textStyle="bold"
+            android:backgroundTint="@color/amarillo"/>
+
+        <Button
+            android:id="@+id/botonConductoresSnVehiculos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONDUCTORES SIN VEHICULO"
+            android:textStyle="bold"
+            android:backgroundTint="@color/amarillo"/>
+
+        <Button
+            android:id="@+id/botonVehiculoAniosUsados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AÑOS DE USO"
+            android:textStyle="bold"
+            android:backgroundTint="@color/amarillo"/>
+
+        <Button
+            android:id="@+id/botonAsignacionConducVehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ASIGNACIONES"
+            android:textStyle="bold"
+            android:backgroundTint="@color/amarillo"/>
+
+        <Button
+            android:id="@+id/botonRegresarM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR"
+            android:textStyle="bold"
+            android:backgroundTint="@color/amarillo"/>
+
+        <ListView
+            android:id="@+id/listaConsultas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

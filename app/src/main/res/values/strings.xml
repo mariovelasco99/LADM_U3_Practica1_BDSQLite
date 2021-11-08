@@ -1,0 +1,10 @@
+<resources>
+    <array name="menuppal">
+        <item>CONDUCTOR</item>
+        <item>VEHICULO</item>
+        <item>CONSULTAS</item>
+        <item>EXPORTACION</item>
+        <item>Salir</item>
+    </array>
+    <string name="app_name">LADM_U3_Practica1_HouseofVans</string>
+</resources>

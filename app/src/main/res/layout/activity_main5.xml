@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/vansfont5"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/gristransparente">
+
+        <Button
+            android:id="@+id/botonExpConductores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONDUCTORES"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/rosa"/>
+
+        <Button
+            android:id="@+id/botonExpVehiculos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VEHICULOS"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/rosa"/>
+
+        <Button
+            android:id="@+id/botonExpConducVehi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONDUCTORES-VEHICULOS"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/rosa"/>
+
+        <Button
+            android:id="@+id/botonExpVehiConduc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VEHICULOS-CONDUCTORES"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/rosa"/>
+
+        <Button
+            android:id="@+id/botonRegresarMP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGRESAR"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/rosa"/>
+
+    </LinearLayout>
+
+</LinearLayout>
